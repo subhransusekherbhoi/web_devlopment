@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    cursor: circle;
+}
+body{
+    width: 95%;
+}
+
+
+h1{
+    position: relative;
+    top: 15px;
+    left: 50px;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+.text{
+   position: absolute;
+   left: 260px;
+   top: 140px;
+   height: 732px;
+   width: 979px;
+   font-size: 90px;
+   line-height: 120px;
+   font-weight: 500;
+    color: black;
+}
+span{
+    background: linear-gradient(180deg, #12C2E9 0%, #C471ED 50%, #F64F59 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.aboutme .more{
+    color: black;
+    position: absolute;
+    width: 400px;
+    height: 116px;
+    left: 267px;
+    top: 990px;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.aboutme .me{
+    position: absolute;
+    width: 584px;
+    height: 344px;
+    left: 642px;
+    top: 1033px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: black;
+}
+.web .more{
+    left: 267px;
+    top: 1300px;
+    color: black;
+    position: absolute;
+    width: 500px;
+    height: 116px;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.social{
+    position: absolute;
+    top: 1450px;
+    left: 220px;
+    width: fit-content;
+    display: grid;
+    grid:auto /auto auto auto;
+    
+}
+.social .content{
+    border: 1px solid grey;
+    border-bottom:5px solid grey;
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.content a{
+    align-items: flex-start;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: grey;
+    
+}
+.fab{
+    align-items: flex-end;
+    padding-top: 20px;
+    padding-left: 135px;
+    color: grey;
+}
+.contactme{
+    position: absolute;
+    top: 1550px;
+    left: 19vw;
+    
+}
+.contactme .more{
+    color: black;
+    position: absolute;
+    width: 500px;
+    height: 116px;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.contactme .more p{
+    color: black;
+    position: relative;
+    width: 500px;
+    height: 116px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.info{
+    position: relative;
+    left: 0px;
+    top: 200px;
+    display: flex;
+    display: grid;
+    grid:auto /auto auto auto;
+    
+    
+}
+.mail{
+    border: 1px solid grey;
+    border-bottom:5px solid grey;
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    width: 300px;
+    padding-top: 15px;
+    margin-right: 50px;
+    margin-left: 10px;
+    
+}
+.phone{
+    border: 1px solid grey;
+    border-bottom:5px solid grey;
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    width: 300px;
+    padding-top: 15px;
+}
+.mail a{
+    padding-left: 20px;
+    color: grey;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+}
+.phone a{
+    padding-left: 20px;
+    color: grey;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+}
+ .fas{
+    color: grey;
+    margin-left: 15px;
+}
+.footer{
+    position: absolute;
+    top: 1850px ;
+    left:41vw;
+    padding-bottom: 15px;   
+}
+
+.fa-at:hover{
+    color:#ec4d4d;
+}
+.fa-phone-square-alt:hover{
+    color:#068a06;
+}
+.at:hover{
+    color:#ec4d4d;
+}
+.phone-square:hover{
+    color:#068a06;
+}
+.fa-linkedin-in:hover{
+    color:#0077b5;
+}
+ .linkedin-in:hover{
+    color:#0077b5;
+}
+.fa-facebook:hover{
+    color:#3b5998;
+}
+ .facebook:hover{
+    color:#3b5998;
+}
+.fa-github:hover{
+    color:black;
+}
+ .github:hover{
+    color:black;
+}
+
+
+
